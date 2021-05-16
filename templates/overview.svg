@@ -9,8 +9,8 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
+  fill: rgb(0, 43, 54);
+  stroke: rgb(0, 43, 54);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
@@ -33,7 +33,7 @@ th {
   text-align: left;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(3, 102, 214);
+  color: rgb(38, 139, 210)
 }
 
 td {
@@ -42,7 +42,7 @@ td {
   padding: 0.25em;
   font-size: 12px;
   line-height: 18px;
-  color: rgb(88, 96, 105);
+  color: rgb(133, 153, 0);
 }
 
 tr {
@@ -54,7 +54,7 @@ tr {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: rgb(181, 137, 0);
   margin-right: 1ch;
   vertical-align: top;
 }
@@ -65,10 +65,10 @@ tr {
   }
 }
 </style>
-<g>
-<rect x="5" y="5" id="background" />
-<g>
-<foreignObject x="21" y="21" width="318" height="168">
+<g transform="translate(5, 5)">
+<rect id="background" />
+<g transform="translate(16, 16)">
+<foreignObject>
 <div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
